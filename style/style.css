@@ -220,7 +220,27 @@ body {
     padding-bottom: 10px;
 }
 
-
+@media print {
+    .asidebar {
+        width: 300px;
+    }
+    .asidebar img {
+        width: 300px;
+    }
+    .about-me-container {
+        padding: 110px 20px 50px 30px;
+    }
+    .tech-skills-container, .soft-skills-container {
+        margin: 45px 40px 0 40px;
+        color: #fff;
+    }
+    .tech-skills-title, .soft-skills-title {
+        margin-bottom: 15px;
+    }
+    .education {
+        padding-top: 50px;
+    }
+}
 
 
 
