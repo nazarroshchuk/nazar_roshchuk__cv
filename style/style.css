@@ -1,0 +1,228 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f5f7fa;
+    padding: 20px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 5px 2px 5px  #979899;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.asidebar {
+    background-color: #373737;
+    width: 370px;
+}
+.contacts-container {
+    margin: 60px 40px 0 40px;
+    color: #fff;
+}
+.contacts-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.contacts-link-name {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 10px;
+}
+.contact-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    transition: all .5s;
+}
+.contact-link:hover {
+    font-size: 14.5px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #fff;
+}
+.tech-skills-container,
+.soft-skills-container {
+    margin: 55px 40px 0 40px;
+    color: #fff;
+}
+.tech-skills-title,
+.soft-skills-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.tech-skills-item,
+.soft-skills-item  {
+    margin-left: 15px;
+    color: #e9650d;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.tech-skills-container .tech-skills-item  span,
+.soft-skills-container .soft-skills-item  span {
+    color: #fff;
+}
+
+
+
+
+.my-photo {
+    width: 370px;
+    margin-top: 40px;
+}
+.about-me-container {
+    padding: 110px 20px 50px 90px;
+}
+.profession {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 22px;
+}
+.professional-company {
+    margin-left: 10px;
+}
+.name {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 89px;
+}
+.description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.about-me-title {
+    margin-bottom: 65px;
+    max-width: 415px;
+}
+.progects-title,
+.work-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.progect-list {
+    list-style-type: decimal;
+}
+.progects-cotntainer {
+    margin-bottom: 55px;
+}
+.progects-cotntainer li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.tach-right,
+.progects-cotntainer a {
+    display: inline-block;
+}
+.tach-right {
+    margin-left: auto;
+
+}
+.progects-cotntainer a {
+    margin-right: 15px;
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    transition: all .5s;
+}
+.progects-cotntainer a:hover {
+    color: #e9650d;
+}
+.technologi {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+/* .dots {
+    color: #bebebe;
+    font-weight: 100;
+} */
+.profession-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.professional-company {
+    color: #e9650d;
+    font-weight: 400;
+}
+.profession-time {
+    color: #a8a8a8;
+    font-size: 12;
+    font-weight: 400;
+    line-height: 24px;
+}
+.profession-time span{
+    font-weight: 700;
+    margin: 0 5px 0 5px;
+    color: #000;
+}
+.professional-duties {
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+.professional-duties li {
+    color: #595959;
+    font-size: 14;
+    font-weight: 400;
+    line-height: 24px;
+}
+.professional-items {
+    margin-left: 15px;
+}
+.education-container {
+    margin: 25px 0 20px 0;
+}
+.education-title {
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: left;
+    color: #000;
+}
+.education-university {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ff6b08;
+    padding-bottom: 10px;
+}
+.education p {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 24px;
+    color: #000;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
