@@ -8,7 +8,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="material-icons/material-icons.css">
     <link rel="stylesheet" href="style/style.css">
+
 </head>
 
 <body>
@@ -19,15 +21,30 @@
             <!--contacts container-->
             <div class="contacts-container">
                 <h3 class="contacts-title">Contacts</h3>
-                <div><span class="contacts-link-name">C:</span><a class="contact-link"
-                        href="tel:+380979423570">+380979423570</a>
+                <div>
+                    <span class="contacts-link-name">
+                        <span class="material-icons">settings_phone</span>
+                    </span>
+                    <a class="contact-link"
+                        href="tel:+380979423570">+380979423570
+                    </a>
                 </div>
-                <div><span class="contacts-link-name">E:</span><a class="contact-link"
-                        href="mailto:nazarroshchul@gmail.com">nazarroshchuk@gmail.com</a>
+                <div>
+                    <span class="contacts-link-name">
+                        <span class="material-icons">markunread</span>
+                    </span>
+                    <a class="contact-link"
+                        href="mailto:nazarroshchul@gmail.com">nazarroshchuk@gmail.com
+                    </a>
                 </div>
-                <div><span class="contacts-link-name">W:</span><a class="contact-link"
-                    href="https://www.linkedin.com/in/nazar-roshchuk-94701158/">profile Linkedin</a>
-            </div>
+                <div>
+                    <span class="contacts-link-name">
+                        <span class="material-icons">insert_link</span>
+                    </span>
+                    <a class="contact-link"
+                        href="https://www.linkedin.com/in/nazar-roshchuk-94701158/">profile Linkedin
+                    </a>
+                </div>
             </div>
             <!--Tech skills container-->
             <div class="tech-skills-container">
@@ -57,9 +74,9 @@
                     <li class="tech-skills-item">
                         <span>Node.js</span>
                     </li>
-                    <li class="tech-skills-item">
+                    <!-- <li class="tech-skills-item">
                         <span>Angular2+</span>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
              <!--Other Programs-->
@@ -83,21 +100,6 @@
                     </li>
                 </ul>
             </div>
-            <!-- Operation system
-            <div class="soft-skills-container">
-                <h3 class="soft-skills-title">Language</h3>
-                <ul>
-                    <li class="soft-skills-item">
-                        <span>Ukrainian</span>
-                    </li>
-                    <li class="soft-skills-item">
-                        <span>Russian</span>
-                    </li>
-                    <li class="soft-skills-item">
-                        <span>English</span>
-                    </li>
-                </ul>
-            </div> -->
             <!--Soft Skills-->
             <div class="soft-skills-container">
                 <h3 class="soft-skills-title">Soft Skills</h3>
@@ -130,13 +132,13 @@
                 <h3 class="soft-skills-title">Language</h3>
                 <ul>
                     <li class="soft-skills-item">
-                        <span>Ukrainian</span>
+                        <span>Ukrainian: native</span>
                     </li>
                     <li class="soft-skills-item">
-                        <span>Russian</span>
+                        <span>Russian: advanced</span>
                     </li>
                     <li class="soft-skills-item">
-                        <span>English</span>
+                        <span>English: intermediate</span>
                     </li>
                 </ul>
             </div>
@@ -146,11 +148,41 @@
             <!-- abouyt me main info-->
             <div class="about-me-title">
                 <h2 class="profession">Front-end Developer</h2>
+                <h4>trainee / junior</h4>
                 <h1 class="name">Nazar Roshchuk</h1>
                 <p class="description">In order to expand my  developer skills I am attending Front-end classes at leading IT-academies SkillUp, 
                     EPAM FrontEnd Lab, SoftServe and web tutorials HTMLAcademy, w3schools, freeCodeCamp. Flexible in multitasking, 
                     working independently and as part of a team. I have strong work ethics, team spirit, innovative view, 
                     leadership and problem-solving skills, and show respect to my colleagues. Over 10 years of experience in photography.</p>
+            </div>
+               <!--Education-->
+            <div class="education">
+                <h3 class="education-title">Education</h3>
+                <div class="education-container">
+                    <h4 class="education-university ">Front-end [Online] Spring 2020 at EPAM Systems</h4>
+                    <p>EPAM Systems</p>
+                    <span class="profession-time">Apr 2020 - Jun 2020<span>|</span>Ukraine</span>
+                </div>  
+                <div class="education-container">
+                    <h4 class="education-university ">Course  Front-end</h4>
+                    <p>SkillUp IT Academy</p>
+                    <span class="profession-time">Dec 2019 - May 2020<span>|</span>Ukraine</span>
+                </div>   
+                <div class="education-container">
+                    <h4 class="education-university ">Course HTML5/CSS3/JS fundamental</h4>
+                    <p>SoftServe IT Academy</p>
+                    <span class="profession-time">Nov 2019 - Dec 2019<span>|</span>Ukraine</span>
+                </div>     
+                <div class="education-container">
+                    <h4 class="education-university ">Master’s physical and biomedical electronics</h4>
+                    <p>Ivan Franko National University</p>
+                    <span class="profession-time">2007 - 2008<span>|</span>Ukraine</span>
+                </div>
+                <div class="education-container">
+                    <h4 class="education-university ">Bachelor's physical and biomedical electronics</h4>
+                    <p>Ivan Franko National University </p>
+                    <span class="profession-time">2003 - 2007<span>|</span>Ukraine</span>
+                </div>
             </div>
             <!-- progect-->
             <div class="progects-cotntainer">
@@ -227,35 +259,6 @@
                     <li class="professional-items">Work with clients.</li>
                 </ul>
             </div>
-         <!--Education-->
-         <div class="education">
-            <h3 class="education-title">Education</h3>
-            <div class="education-container">
-                <h4 class="education-university ">FRONT-END [Online] Spring 2020 at EPAM Systems</h4>
-                <p>EPAM Systems</p>
-                <span class="profession-time">Apr 2020 - Present<span>|</span>Ukraine</span>
-            </div>  
-            <div class="education-container">
-                <h4 class="education-university ">Course  Front-end</h4>
-                <p>SkillUp IT Academy</p>
-                <span class="profession-time">Dec 2019 - May 2020<span>|</span>Ukraine</span>
-            </div>   
-            <div class="education-container">
-                <h4 class="education-university ">Course HTML5/CSS3/JS fundamental</h4>
-                <p>SoftServe IT Academy</p>
-                <span class="profession-time">Nov 2019 - Dec 2019<span>|</span>Ukraine</span>
-            </div>     
-            <div class="education-container">
-                <h4 class="education-university ">Master’s physical and biomedical electronics</h4>
-                <p>Ivan Franko National University</p>
-                <span class="profession-time">2007 - 2008<span>|</span>Ukraine</span>
-            </div>
-            <div class="education-container">
-                <h4 class="education-university ">Bachelor's physical and biomedical electronics</h4>
-                <p>Ivan Franko National University </p>
-                <span class="profession-time">2003 - 2007<span>|</span>Ukraine</span>
-            </div>
-        </div>
         </div>
     </div>
 </body>

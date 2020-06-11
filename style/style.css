@@ -26,6 +26,11 @@ body {
     margin: 60px 40px 0 40px;
     color: #fff;
 }
+.contacts-container div {
+    display: flex;
+    justify-content: start;
+    align-content: center;
+}
 .contacts-title {
     font-size: 22px;
     font-weight: 700;
@@ -84,13 +89,19 @@ body {
     margin-top: 40px;
 }
 .about-me-container {
-    padding: 110px 20px 50px 90px;
+    padding: 80px 20px 50px 90px;
+}
+.about-me-title h2 {
+    font-size: 24px;
+}
+.about-me-title h4 {
+    font-style: italic;
 }
 .profession {
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
-    margin-bottom: 22px;
+    margin-bottom: 10px;
 }
 .professional-company {
     margin-left: 10px;
@@ -104,10 +115,14 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+    text-align: justify;
 }
 .about-me-title {
     margin-bottom: 65px;
     max-width: 415px;
+}
+.progects-title {
+    margin-top: 60px;
 }
 .progects-title,
 .work-title {
@@ -239,6 +254,9 @@ body {
     }
     .education {
         padding-top: 50px;
+    }
+    .work-title {
+        margin-top: 100px;
     }
 }
 
