@@ -152,7 +152,7 @@ body {
     display: inline-block;
 }
 .tach-right {
-    margin-left: auto;
+    margin-left: 40px;
 
 }
 .progects-cotntainer a {
@@ -238,7 +238,29 @@ body {
     padding-bottom: 10px;
 }
 
+.licenses-sertifacarions ul li {
+  font-weight: bold;
+}
+
+.licenses-sertifacarions ul li dl {
+  font-weight: normal;
+}
+
+.licenses-sertifacarions ul li a {
+  font-weight: bold;
+  color: #595959;
+}
+
 @media print {
+    .contacts-container {
+      margin-top: 5px;
+    }
+    .tech-skills-container {
+      margin-top: 0;
+    }
+    .soft-skills-container {
+      margin-top: 0;
+    }
     .asidebar {
         width: 300px;
     }
@@ -246,7 +268,7 @@ body {
         width: 300px;
     }
     .about-me-container {
-        padding: 110px 20px 50px 30px;
+        padding: 110px 20px 10px 30px;
     }
     .tech-skills-container, .soft-skills-container {
         margin: 45px 40px 0 40px;
@@ -255,9 +277,12 @@ body {
     .tech-skills-title, .soft-skills-title {
         margin-bottom: 15px;
     }
-    .education {
-        padding-top: 50px;
+    .education-title {
+        padding-top: 0px;
     }
+    .education {
+      padding-top: 0px;
+  }
     .work-title {
         margin-top: 100px;
     }
