@@ -23,8 +23,12 @@ body {
 }
 
 .asidebar {
-    background-color: #373737;
-    width: 370px;
+    background-color: rgba(55, 55, 55, 0.91);
+    width: 300px;
+}
+
+.asidebar .my-photo {
+    width: 300px;
 }
 
 .contacts-container {
@@ -98,11 +102,6 @@ body {
 
 .tech-devskills-container {
     font-size: 16px;
-}
-
-
-.my-photo {
-    width: 370px;
 }
 
 .about-me-container {
@@ -372,6 +371,10 @@ body {
 
 
 @media print {
+
+    .about-me-title {
+        margin: 0;
+    }
     .contacts-container {
         margin-top: 5px;
     }
@@ -393,16 +396,12 @@ body {
     }
 
     .about-me-container {
-        padding: 20px 30px 10px 30px;
+        padding: 20px 30px 0px 30px;
     }
 
     .tech-skills-container, .soft-skills-container {
-        margin: 45px 40px 0 40px;
+        margin: 15px 0px 0 15px;
         color: #fff;
-    }
-
-    .tech-skills-title, .soft-skills-title {
-        margin-bottom: 10px;
     }
 
     .education-title {
